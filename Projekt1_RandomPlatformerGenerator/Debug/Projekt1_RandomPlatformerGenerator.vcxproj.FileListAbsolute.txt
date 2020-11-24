@@ -1,0 +1,4 @@
+C:\Users\PC-Stefan\source\repos\Projekt1_RandomPlatformerGenerator\Debug\Projekt1_RandomPlatformerGenerator.exe
+C:\Users\PC-Stefan\source\repos\Projekt1_RandomPlatformerGenerator\Debug\Projekt1_RandomPlatformerGenerator.pdb
+F:\SCHOOL\GEC\Portofolio\Projekt1_RandomPlatformerGenerator\Debug\Projekt1_RandomPlatformerGenerator.exe
+F:\SCHOOL\GEC\Portofolio\Projekt1_RandomPlatformerGenerator\Debug\Projekt1_RandomPlatformerGenerator.pdb

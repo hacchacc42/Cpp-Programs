@@ -1,0 +1,9 @@
+﻿  Projekt4_BinaryTranslator.cpp
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(77,49): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(81,49): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(170,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(203,44): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(151): warning C4715: 'Hex': not all control paths return a value
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(183): warning C4715: 'Text': not all control paths return a value
+F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Projekt4_BinaryTranslator.cpp(216): warning C4715: 'Decimal': not all control paths return a value
+  Projekt4_BinaryTranslator.vcxproj -> F:\SCHOOL\GEC\Portofolio\Projekt4_BinaryTranslator\Debug\Projekt4_BinaryTranslator.exe

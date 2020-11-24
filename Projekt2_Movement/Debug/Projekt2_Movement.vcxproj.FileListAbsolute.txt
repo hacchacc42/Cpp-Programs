@@ -1,0 +1,4 @@
+C:\Users\PC-Stefan\source\repos\Projekt2_Movement\Debug\Projekt2_Movement.exe
+C:\Users\PC-Stefan\source\repos\Projekt2_Movement\Debug\Projekt2_Movement.pdb
+F:\SCHOOL\GEC\Portofolio\Projekt2_Movement\Debug\Projekt2_Movement.exe
+F:\SCHOOL\GEC\Portofolio\Projekt2_Movement\Debug\Projekt2_Movement.pdb

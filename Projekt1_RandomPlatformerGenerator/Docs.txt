@@ -1,0 +1,25 @@
+Documentation for: Projekt1_RandomPlatformerGenerator
+Date: 2/10/2020
+
+Idea of the project:
+In the week 1 of the FOGGS we had to modify a platformer . The most interisting thing that I've found about that platformer was
+the fact that it use another file that will generate the level and it useses symbols to translate to blocks in game.
+SO me and another collegue (Razudalkins Mairis - Games Programming ) have figure out how to modify the game to be able to bypass the reading file and
+just read the whole level from a variable. While Mairis figure out how to bypass the reading part, I've focused on a code that will generate random tiles.
+
+Idea of the code:
+Because the whole level is just a rectangle I've figure it out that the best way to generate a level is to make a "MAP" which is just a double char array.
+Firstly I've made 2 for loops that will go throught each of the array element and will assign a symbol:
+1. First and last element of each collum/row will be assigned with a solid block "#", that will make the border of the level.
+2. Using a random number I could create the player start location "1" and the level exit "randomNum".
+3. Every 3 row there will be a chance that a platform will spawn "-", the chance is 1 in 3.
+4. If on the curent element there are no symbols such as platform, player start location or exit there will be assigned an air block ".".
+5. In the end if there is no player start location or level exit the program will automaticaly assign those symbols to a pre set element.
+After the whole "MAP" is filled then using 2 for loops again a value will read the whole "MAP" and the level will be generated in the game.
+
+NOTE:
+The output of code in the "Projekt1_RandomPlatformerGenerator" is not the same one as in the plaformer, the output of this code will be more similar to 
+the one in the platformer level files.
+Also to be more clear to see I've changed "." with " ".
+!!! I'm not that mad to write the entire code with long variable names like "map[row][collum]", I mainly use "a[i][j]" and replace them in visual studio
+once I'm done, for easily readability. !!!

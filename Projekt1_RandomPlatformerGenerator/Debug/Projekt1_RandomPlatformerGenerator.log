@@ -1,0 +1,3 @@
+﻿  Projekt1_RandomPlatformerGenerator.cpp
+F:\SCHOOL\GEC\Portofolio\Projekt1_RandomPlatformerGenerator\Projekt1_RandomPlatformerGenerator.cpp(10,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Projekt1_RandomPlatformerGenerator.vcxproj -> F:\SCHOOL\GEC\Portofolio\Projekt1_RandomPlatformerGenerator\Debug\Projekt1_RandomPlatformerGenerator.exe

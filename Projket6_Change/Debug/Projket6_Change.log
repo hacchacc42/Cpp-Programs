@@ -1,0 +1,4 @@
+﻿  Projket6_Change.cpp
+F:\SCHOOL\GEC\Portofolio\Projket6_Change\Projket6_Change.cpp(11,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\SCHOOL\GEC\Portofolio\Projket6_Change\Projket6_Change.cpp(26,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Projket6_Change.vcxproj -> F:\SCHOOL\GEC\Portofolio\Projket6_Change\Debug\Projket6_Change.exe

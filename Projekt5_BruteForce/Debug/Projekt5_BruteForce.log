@@ -1,0 +1,4 @@
+﻿  Projekt5_BruteForce.cpp
+F:\SCHOOL\GEC\Portofolio\Projekt5_BruteForce\Projekt5_BruteForce.cpp(24,22): warning C4018: '<': signed/unsigned mismatch
+F:\SCHOOL\GEC\Portofolio\Projekt5_BruteForce\Projekt5_BruteForce.cpp(13,6): warning C4101: 'i': unreferenced local variable
+  Projekt5_BruteForce.vcxproj -> F:\SCHOOL\GEC\Portofolio\Projekt5_BruteForce\Debug\Projekt5_BruteForce.exe
