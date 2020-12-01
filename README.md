@@ -25,6 +25,7 @@ This is a list of programs that I did in my free time during the first year of u
 1. **Change**
 
     Program insipred by Harvard cs50x
+    
     Generate a random price and based on your given cash will return the change in coins and money
     
 1. **Noise**
