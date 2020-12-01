@@ -13,8 +13,10 @@ struct account
 void LoadDataBase();
 void OutputDataBase();
 void AddToDataBase();
-void Sorting();
+void Sorting(bool search);
 void Swap(int j);
+void Search();
+int BinarySearch(std::string name, int start, int end);
 
 std::fstream dataFile;
 int maxAcc = 0;
@@ -26,7 +28,7 @@ int main()
 	{
 		LoadDataBase();
 		system("CLS");
-		std::cout << "What do you want to do ?" << std::endl << "1. Show data base." << std::endl << "2. Add to data base" << std::endl << "3. Sort" << std::endl;
+		std::cout << "What do you want to do ?" << std::endl << "1. Show data base." << std::endl << "2. Add to data base" << std::endl << "3. Sort" << std::endl << "4. Search" << std::endl << "5. Quit" << std::endl;
 		std::cin >> ch;
 		if (ch == '1')
 		{
@@ -38,14 +40,34 @@ int main()
 		}
 		else if (ch == '3')
 		{
-			Sorting();
+			Sorting(false);
+		}
+		else if (ch == '4')
+		{
+			Search();
+		}
+		else if (ch == '5')
+		{
+			std::cout << "Good bye!" << std::endl;
+			return 1;
 		}
 		else
 		{
 			std::cout << "Invalid input ." << std::endl;
 		}
 		std::cout << "Do you want to do other transaction ?(Y/N)" << std::endl;
-		std::cin >> repeat;
+		while (true)
+		{
+			std::cin >> repeat;
+			if (repeat == 'Y' || repeat == 'N')
+			{
+				break;
+			}
+			else
+			{
+				std::cout << "Invalid Input" << std::endl;
+			}
+		}
 	}
 	while (toupper(repeat) == 'Y');
 }
@@ -89,11 +111,18 @@ void AddToDataBase()
 	dataFile.close();
 }
 
-void Sorting()
+void Sorting(bool search)
 {
-	std::cout << "1. Ascending  2. Descending  3. By Name Ascending  4. By Name Descending" << std::endl;
 	char sort;
-	std::cin >> sort;
+	if (!search)
+	{
+		std::cout << "1. Ascending  2. Descending  3. By Name Ascending  4. By Name Descending" << std::endl;
+		std::cin >> sort;
+	}
+	else
+	{
+		sort = '3';
+	}
 	if (sort == '1' || sort == '2' || sort == '3' || sort == '4')
 	{
 		for (int i = 0; i < maxAcc - 1; i++)
@@ -135,7 +164,10 @@ void Sorting()
 	{
 		std::cout << "Invalid output, Displaying default database" << std::endl << std::endl;
 	}
-	OutputDataBase();
+	if (!search)
+	{
+		OutputDataBase();
+	}
 }
 
 
@@ -155,4 +187,46 @@ void Swap(int j)
 	tempI = account[j].id;
 	account[j].id = account[j + 1].id;
 	account[j + 1].id = tempI;
+}
+
+void Search()
+{
+	Sorting(true);
+	std::cout << "Enter the name : ";
+	std::string name;
+	std::cin >> name;
+	int pos = BinarySearch(name, 0, maxAcc);
+	if (pos == -1)
+	{
+		std::cout << "User not found" << std::endl;
+	}
+	else
+	{
+		std::cout << "ID : " << account[pos].id << std::endl << "Name : " << account[pos].name << std::endl << "Balance : " << account[pos].balance << std::endl << std::endl;
+	}
+
+}
+
+int BinarySearch(std::string name, int start, int end)
+{
+	if (end >= start)
+	{
+		int mid = (start + end - 1) / 2;
+		if (account[mid].name == name)
+		{
+			return mid;
+		}
+		if (account[mid].name[0] > name[0])
+		{
+			return BinarySearch(name, start, end - 1);
+		}
+		else
+		{
+			return BinarySearch(name, start + 1, end);
+		}
+	}
+	else
+	{
+		return -1;
+	}
 }
