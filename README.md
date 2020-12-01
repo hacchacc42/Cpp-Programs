@@ -2,9 +2,7 @@
  More "advanced" C++ programs
 This is a list of programs that I did in my free time during the first year of university.
 
-1. **Random Platformer Generator**
-
-     Generate random levels for a univeristy demo project.
+1. **Random Platformer Generator**    Generate random levels for a univeristy demo project.
 
 1. **Movement**
 
