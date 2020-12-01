@@ -18,7 +18,7 @@ This is a list of programs that I did in my free time during the first year of u
 
     Translate from Binary to Text / Hex / Decimal
     
-1. ****1. Brute Force****
+1. **Brute Force**
 
     Default Brute Force alg
     
