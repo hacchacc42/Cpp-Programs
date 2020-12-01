@@ -22,13 +22,13 @@ This is a list of programs that I did in my free time during the first year of u
 
 1. **Change**
 
-    Program insipred by Harvard cs50x
+    *Program insipred by Harvard cs50x*
     
     Generate a random price and based on your given cash will return the change in coins and money
 
 1. **Noise**
 
-    A basic look at a noise generator - Insipred me to make procedural worlds in unity
+    A basic look at a noise generator *Insipred me to make procedural worlds in unity*
 
 1. **Data Base**
 
