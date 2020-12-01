@@ -2,23 +2,23 @@
  More "advanced" C++ programs
 This is a list of programs that I did in my free time during the first year of university.
 
-1. **Random Platformer Generator**
+**1. Random Platformer Generator**
 
     Generate random levels for a univeristy demo project.
     
-1. **Movement**
+**1. Movement**
 
     Turn based movement and inventory system
     
-1. **Drawing Shapes**
+**1. Drawing Shapes**
 
     Drawing squares by input numbers
     
-1. **Binary Translator**
+**1. Binary Translator**
 
     Translate from Binary to Text / Hex / Decimal
     
-1. **Brute Force**
+**1. Brute Force**
 
     Default Brute Force alg
     
