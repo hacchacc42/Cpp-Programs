@@ -30,7 +30,9 @@ This is a list of programs that I did in my free time during the first year of u
 
 1. **Noise**
 
-    A basic look at a noise generator *Insipred me to make procedural worlds in unity*
+    A basic look at a noise generator 
+    
+    *Insipred me to make procedural worlds in unity*
 
 1. **Data Base**
 
