@@ -1,0 +1,2 @@
+F:\SCHOOL\Portofolio\Cpp-Programs\Projket8_DataBase\Debug\Projket8_DataBase.exe
+F:\SCHOOL\Portofolio\Cpp-Programs\Projket8_DataBase\Debug\Projket8_DataBase.pdb

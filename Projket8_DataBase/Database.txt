@@ -1,0 +1,8 @@
+0 Mera 1.25
+1 Tomas 2.5
+2 Mark 2643.23
+4 Kiru 295.3
+5 Mojojojo 1.92
+6 Testache 1953.25
+7 Hey 106
+8 Stefan 9124.35
